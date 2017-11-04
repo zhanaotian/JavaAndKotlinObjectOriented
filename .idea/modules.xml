@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaAndKotlinObjectOriented.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaAndKotlinObjectOriented.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaAndKotlinObjectOriented_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaAndKotlinObjectOriented_main.iml" group="JavaAndKotlinObjectOriented" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaAndKotlinObjectOriented_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaAndKotlinObjectOriented_test.iml" group="JavaAndKotlinObjectOriented" />
     </modules>
   </component>
