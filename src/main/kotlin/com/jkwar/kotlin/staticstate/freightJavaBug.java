@@ -24,7 +24,7 @@ public class Bug {
 
     //删除
     integerList.remove(1);
-    //remove(object)
+    //remove(object) 原本是删除参数2312，但是由于bug，删除的是下标 2312 的数据
 //    integerList.remove(2312);
 
   }

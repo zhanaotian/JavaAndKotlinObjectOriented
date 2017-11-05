@@ -1,4 +1,4 @@
-package com.jkwar.kotlin
+package com.jkwar.kotlin.interfaceAndabstract
 
 
 /**
@@ -26,6 +26,7 @@ interface InputDevice {
 
 /**
  * 定义鼠标设置接口
+ *
  */
 interface OpticalMouse
 
