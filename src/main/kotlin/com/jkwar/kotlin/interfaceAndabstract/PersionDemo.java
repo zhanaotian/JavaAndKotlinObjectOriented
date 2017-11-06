@@ -1,4 +1,4 @@
-package com.jkwar.java;
+package com.jkwar.kotlin.interfaceAndabstract;
 
 
 public class PersionDemo {

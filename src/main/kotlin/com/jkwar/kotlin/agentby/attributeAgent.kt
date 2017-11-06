@@ -13,9 +13,8 @@ import kotlin.reflect.KProperty
 //延迟属性（lazy properties）: 其值只在首次访问时计算，
 //可观察属性（observable properties）: 监听器会收到有关此属性变更的通知，
 //把多个属性储存在一个映射（map）中，而不是每个存在单独的字段中。
-//局部委托属性
 class Examle {
-    val a by lazy(LazyThreadSafetyMode.PUBLICATION) {
+    val a by lazy {
         "哈哈哈"
     }
     val b by Delegate()
@@ -32,6 +31,11 @@ class Examle {
     }
 }
 
+fun sum(x: Int, y: Int): Int {
+    //局部委托属性
+    val sum by lazy { x + y }
+    return sum
+}
 
 
 /**
@@ -52,7 +56,7 @@ class Delegate {
 }
 
 //构造函数接受一个映射参数
-class User(val map: MutableMap<String, Any?>) {
+class User(map: MutableMap<String, Any?>) {
     val name: String by map
     var age: String by map
 }
@@ -77,4 +81,6 @@ fun main(args: Array<String>) {
     println(user.age)
     user.age = "50"
     println(user.age)
+
+    println(sum(1, 3))
 }
