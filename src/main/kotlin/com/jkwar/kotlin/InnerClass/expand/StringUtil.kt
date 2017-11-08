@@ -1,4 +1,4 @@
-package com.jkwar.kotlin.expand
+package com.jkwar.kotlin.InnerClass.expand
 
 
 fun main(args: Array<String>) {

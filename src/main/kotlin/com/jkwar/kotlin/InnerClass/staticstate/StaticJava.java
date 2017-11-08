@@ -1,4 +1,6 @@
-package com.jkwar.kotlin;
+package com.jkwar.kotlin.InnerClass.staticstate;
+
+import com.jkwar.kotlin.Latitud;
 
 public class StaticJava {
 

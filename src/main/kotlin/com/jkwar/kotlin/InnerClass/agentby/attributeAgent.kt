@@ -1,4 +1,4 @@
-package com.jkwar.kotlin.agentby
+package com.jkwar.kotlin.InnerClass.agentby
 
 import kotlin.properties.Delegates
 import kotlin.reflect.KProperty

@@ -1,4 +1,4 @@
-package com.jkwar.kotlin;
+package com.jkwar.kotlin.InnerClass.object;
 
 public class ObjectJava {
 
