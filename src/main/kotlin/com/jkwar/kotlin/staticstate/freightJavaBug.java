@@ -1,4 +1,4 @@
-package com.jkwar.kotlin.InnerClass.staticstate;
+package com.jkwar.kotlin.staticstate;
 
 import com.jkwar.kotlin.Overloads;
 import java.util.ArrayList;

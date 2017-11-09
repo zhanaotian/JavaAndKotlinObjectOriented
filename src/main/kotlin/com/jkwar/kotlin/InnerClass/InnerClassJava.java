@@ -1,7 +1,4 @@
-package com.jkwar.kotlin.InnerClass.InnerClass;
-
-import com.jkwar.kotlin.InnerClass.OnClickListener;
-import com.jkwar.kotlin.InnerClass.View;
+package com.jkwar.kotlin.InnerClass;
 
 /**
  * 内部类 静态内部类

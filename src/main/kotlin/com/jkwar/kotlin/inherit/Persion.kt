@@ -1,4 +1,4 @@
-package com.jkwar.kotlin.InnerClass.inherit
+package com.jkwar.kotlin.inherit
 
 /**
  * @property Persion 弗雷
