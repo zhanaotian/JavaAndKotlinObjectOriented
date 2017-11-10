@@ -1,4 +1,4 @@
-package com.jkwar.kotlin.interfaceAndabstract
+package com.jkwar.kotlin.interfaceandabstract
 
 
 /**

@@ -6,3 +6,5 @@ package com.jkwar.kotlin.seal
 //object Pause : PlayerCmd()
 //object Resume : PlayerCmd()
 //object Stop : PlayerCmd()
+
+
