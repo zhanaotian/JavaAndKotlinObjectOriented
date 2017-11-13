@@ -50,6 +50,7 @@ abstract class USBMouse(val name: String) : USBInputDevice, BLEInputDevice, Opti
     }
 
     override fun speak() {
+        //接口冲突
         super<USBInputDevice>.speak()
         super<BLEInputDevice>.speak()
     }

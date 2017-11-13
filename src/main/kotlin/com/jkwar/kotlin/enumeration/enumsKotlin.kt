@@ -18,9 +18,9 @@ enum class LogLevel(val id: Int) {
 
 //匿名类
 enum class Colors {
-    BLACK {
+       BLACK {
         override fun signal(): Colors {
-            return WRITE
+            return this
         }
     },
 
@@ -45,8 +45,8 @@ fun main(args: Array<String>) {
     //匿名类
     println(Colors.WRITE.signal())
 
-    println(enumValues<Direction>().joinToString { it.name })
-    println(enumValueOf<LogLevel>("ERROR").ordinal)
+    println(enumValues<LogLevel>().joinToString { it.name })
+    println(enumValueOf<LogLevel>("ERROR"))
 }
 
 /**

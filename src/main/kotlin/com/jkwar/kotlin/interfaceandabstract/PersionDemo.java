@@ -12,6 +12,7 @@ public class PersionDemo {
 }
 
 abstract class Pension {
+
   abstract void work();
 }
 

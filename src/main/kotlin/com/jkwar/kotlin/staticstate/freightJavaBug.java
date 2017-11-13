@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 错误的方法重载
  */
-public class Bug {
+public class freightJavaBug {
   public static void main(String[] args) {
     Overloads overloads = new Overloads();
     System.out.println(overloads.a());

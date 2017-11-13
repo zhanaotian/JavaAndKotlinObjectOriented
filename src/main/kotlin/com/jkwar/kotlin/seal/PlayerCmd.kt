@@ -32,7 +32,8 @@ data class Const(val number: Double) : PlayerCmd()
 data class Sum(val e1: PlayerCmd, val e2: PlayerCmd) : PlayerCmd()
 
 fun main(args: Array<String>) {
+    PlayerCmd.Seek(1)
     println(Const(2.00).number)
-    println(Sum(Const(20.0), Const(30.0)))
+    println(Sum(Const(20.0), Const(30.0)).e1)
 }
 

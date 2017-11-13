@@ -5,7 +5,7 @@ package com.jkwar.kotlin.inherit
  * @param age 年龄
  * 抽象类决定你是什么
  */
-abstract class Persion(open val age: Int) {
+abstract class Persion<T>(open val age: Int) {
     abstract fun work()
 }
 
@@ -21,7 +21,7 @@ interface other {
 /**
  * 码农
  */
-class MaNong(age: Int) : Persion(age), other {
+class MaNong(age: Int) : Persion<Any?>(age), other {
     override fun readBook() {
         println("码农读数学书")
     }
@@ -39,7 +39,7 @@ class MaNong(age: Int) : Persion(age), other {
 /**
  * 医生
  */
-class YiSheng(age: Int) : Persion(age), other {
+class YiSheng(age: Int) : Persion<Any?>(age), other {
     override fun readBook() {
         println("医生读医学书")
     }
@@ -52,7 +52,7 @@ class YiSheng(age: Int) : Persion(age), other {
 
 
 fun main(args: Array<String>) {
-    val person: Persion = MaNong(25)
+    val person: Persion<Any?> = MaNong(25)
     person.work()
     val person2 = YiSheng(35)
     person2.work()
